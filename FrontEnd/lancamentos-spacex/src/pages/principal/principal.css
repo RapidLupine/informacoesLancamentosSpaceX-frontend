@@ -1,0 +1,42 @@
+.container{
+    display: flex;
+    flex-flow: wrap;
+}
+
+.container > div {
+    margin: 5px;
+    background-color: rgba(240, 248, 255, 0.233);
+    flex: 1 1 500px;
+    min-height: 80px;
+    border: 1px solid #282c34;
+    border-radius: 4px;
+    color: #282c34;
+    display: flex;
+    align-items: center;
+    flex-flow: wrap;
+}
+
+.container > div > div{
+    flex: 1 1 250px;
+}
+
+.texto{
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+}
+
+.texto > span {
+    color: #282c34c5;
+}
+
+.texto > h2 {
+    color: #282c34c5;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+iframe{
+    margin: 5px;
+    border-radius: 4px;
+}
